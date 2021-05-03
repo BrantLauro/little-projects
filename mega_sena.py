@@ -4,11 +4,11 @@ print('=' * 21)
 print('= Mega-Sena Numbers =')
 print('=' * 21)
 numbers = []
-for c in range(0, 6):
+while len(numbers) != 6:
     number = randint(1, 60)
     if number not in numbers:
-        print(number)
+        print(f'{number}' , end=' → ')
+        sleep(0.1)
         numbers.append(number)
-    sleep(1)
 numbers.sort()
 print(numbers)
