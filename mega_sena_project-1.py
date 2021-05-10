@@ -5,7 +5,7 @@ def lin():
     print('='*30)
 
 lin()
-print('          Mega-Sena')
+print(f"{'Mega-Sena':>19}")
 lin()
 
 games = []
@@ -24,5 +24,5 @@ for c in range(0, times):
     print(games[c])
 
 lin()
-print('          Good Luck')
+print(f"{'Good Luck':>19}")
 lin()
