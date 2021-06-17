@@ -76,3 +76,27 @@ main( ) {
 font: https://en.wikipedia.org/wiki/%22Hello,_World!%22_program
 
 So, I made some updates on this simple and classic program to make it more **pretty**!
+
+## Project 4:
+
+```
+ __  __                    ____                    
+|  \/  | ___  __ _  __ _  / ___|  ___ _ __   __ _  
+| |\/| |/ _ \/ _` |/ _` | \___ \ / _ \ '_ \ / _` |  
+| |  | |  __/ (_| | (_| |  ___) |  __/ | | | (_| |   
+|_|  |_|\___|\__, |\__,_| |____/ \___|_| |_|\__,_| 
+             |___/                                                   
+ _____ _              ____ 
+|_   _| |__   ___    / ___| __ _ _ __ ___   ___ 
+| | | | '_ \ / _ \  | |  _ / _` | '_ ` _ \ / _ \ 
+| | | | | | |  __/  | |_| | (_| | | | | | |  __/
+| |_| |_| |_|\___|   \____|\__,_|_| |_| |_|\___|
+```
+
+A simple game where the pc randomize a **Mega Sena Game** and you try to guess it!
+
+Like you count read in the text of the first project, Mega Sena is a Brazilian Lottery where you try to guess six diferent numbers between 1 and 60 an revice milions of Reais if you can hit all the 6 numbers.
+
+So in this game you have to put 6 numbers that you think maybe the pc randomized and in the end the program shows the selected 6 numbers and says how many numbers you hited.
+
+I hope you get **fun** playing this games and **Good Luck**!
