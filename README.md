@@ -2,6 +2,9 @@
 
 **Some Little Projects that I made just for fun**
 
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/BrantLauro/little-projects?style=social">
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/BrantLauro?label=Follow%20me%20%3A%29&style=social">
+
 ## Project 1:
 
 ```
@@ -100,3 +103,24 @@ Like you count read in the text of the first project, Mega Sena is a Brazilian L
 So in this game you have to put 6 numbers that you think maybe the pc randomized and in the end the program shows the selected 6 numbers and says how many numbers you hited.
 
 I hope you get **fun** playing this games and **Good Luck**!
+
+## ⚈ Download:
+
+[Click Here](https://github.com/BrantLauro/little-projects/releases/) to download.
+
+## 💻 Tech Stack:
+
+The following tools were used in the construction of the project:
+- [Python](https://www.python.org/)
+
+### ©️ Copyrights
+
+Licensed with MIT.
+
+---
+
+> LinkedIn [Lauro Brant](https://www.linkedin.com/in/lauro-brant-4858861b3/) &nbsp;&middot;&nbsp;
+> GitHub [BrantLauro](https://github.com/BrantLauro) &nbsp;&middot;&nbsp;
+> Twitter [@BrantLauro](https://twitter.com/BrantLauro) &nbsp;&middot;&nbsp;
+> Instagram [@brantlauro](https://www.instagram.com/brantlauro/) &nbsp;&middot;&nbsp;
+
