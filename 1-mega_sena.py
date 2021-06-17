@@ -4,9 +4,14 @@ from time import sleep as sl
 def lin():
     print('='*30)
 
-lin()
-print(f"{'Mega-Sena':>19}")
-lin()
+print('''
+ __  __                    ____                   
+|  \/  | ___  __ _  __ _  / ___|  ___ _ __   __ _ 
+| |\/| |/ _ \/ _` |/ _` | \___ \ / _ \ '_ \ / _` |
+| |  | |  __/ (_| | (_| |  ___) |  __/ | | | (_| |
+|_|  |_|\___|\__, |\__,_| |____/ \___|_| |_|\__,_|
+             |___/                                
+''')
 
 games = []
 times = int(input('How many games do you want to play? '))
