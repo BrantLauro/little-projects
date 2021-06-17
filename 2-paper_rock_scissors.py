@@ -10,17 +10,18 @@ def lin (qua,sym):
     print(qua*sym)
 
 print('''
- ____                         ____            _                      _ 
-|  _ \ __ _ _ __   ___ _ __  |  _ \ ___   ___| | __   __ _ _ __   __| |
-| |_) / _` | '_ \ / _ \ '__| | |_) / _ \ / __| |/ /  / _` | '_ \ / _` |
-|  __/ (_| | |_) |  __/ |    |  _ < (_) | (__|   <  | (_| | | | | (_| |
-|_|   \__,_| .__/ \___|_|    |_| \_\___/ \___|_|\_\  \__,_|_| |_|\__,_|
-           |_|                                                         
- ____       _                    
-/ ___|  ___(_)___ ___  ___  _ __ 
-\___ \ / __| / __/ __|/ _ \| '__|
- ___) | (__| \__ \__ \ (_) | |   
-|____/ \___|_|___/___/\___/|_|   
+ ____            _      ____                       
+|  _ \ ___   ___| | __ |  _ \ __ _ _ __   ___ _ __ 
+| |_) / _ \ / __| |/ / | |_) / _` | '_ \ / _ \ '__|
+|  _ < (_) | (__|   <  |  __/ (_| | |_) |  __/ |   
+|_| \_\___/ \___|_|\_\ |_|   \__,_| .__/ \___|_|   
+                                  |_|              
+ ____       _                        
+/ ___|  ___(_)___ ___  ___  _ __ ___ 
+\___ \ / __| / __/ __|/ _ \| '__/ __|
+ ___) | (__| \__ \__ \ (_) | |  \__ \
+|____/ \___|_|___/___/\___/|_|  |___/
+
 ''')
 
 din("Welcome to the Lauro's Paper Rock and Scissor \n")
@@ -28,12 +29,13 @@ din('Paper Rock or Scissor? \n')
 while True:
     p1_choice = 0
     while p1_choice not in [1, 2 , 3]:
-        p1_choice = int(input('[1] Paper \n'
-                              '[2] Rock \n'
+        p1_choice = int(input('[1] Rock \n'
+                              '[2] Paper \n'
                               '[3] Scissor '))
         lin(30, '~')
         p2_choice = rd(1, 3)
-    if p1_choice == 1 and p2_choice == 2 or p1_choice == 2 and p2_choice == 3 or p1_choice == 3 and p2_choice == 1:
+    if p1_choice == 1 and p2_choice == 3 or p1_choice == 2 and p2_choice == 1 or p1_choice == 3 and p2_choice == 2:
+        print(p2_choice)
         print('You Win!')
         continue_choice = ' '
         while continue_choice not in 'NY':
@@ -41,7 +43,8 @@ while True:
             lin(30, '~')
         if continue_choice == 'N':
             break
-    if p2_choice == 1 and p1_choice == 2 or p2_choice == 2 and p1_choice == 3 or p2_choice == 3 and p1_choice == 1:
+    if p2_choice == 1 and p1_choice == 3 or p2_choice == 2 and p1_choice == 1 or p2_choice == 3 and p1_choice == 2:
+        print(p2_choice)
         print('You Lose!')
         continue_choice = ' '
         while continue_choice not in 'NY':
