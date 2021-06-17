@@ -1,4 +1,4 @@
-# little-projects
+# Little Projects 🎯
 
 **Some Little Projects that I made just for fun**
 
