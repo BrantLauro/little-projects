@@ -5,19 +5,10 @@ def din (text):
     for c in (text):
         print(c, end='', flush=True)
         sl(0.05)
+    print()
 
 def lin (qua,sym):
     print(qua*sym)
-
-game = []
-correct_numbers = 0
-guess = 0
-
-for c in range(0, 6):
-    number = rd(1,60)
-    if number not in game:
-        game.append(number)
-
 
 print('''
  __  __                    ____                    
@@ -34,8 +25,19 @@ print('''
 
 ''')
 
-din("Welcome to Lauro's Mega Sena - The Game \n"
-    "The Pc made a Mega Sena game, and you have to guess it! \n")
+din("Welcome to Lauro's Mega Sena - The Game! \n"
+    "The Pc made a Mega Sena game, and you have to guess it!")
+
+game = []
+correct_numbers = 0
+guess = 0
+
+for c in range(0, 6):
+    number = rd(1,60)
+    if number not in game:
+        game.append(number)
+
+
 
 for i in range(0, 6):
     while True:

@@ -1,3 +1,14 @@
+from time import sleep as sl
+
+def din (text):
+    for c in (text):
+        print(c, end='', flush=True)
+        sl(0.05)
+    print()
+
+def lin (qua,sym):
+    print(qua*sym)
+
 print('''
  _____ _ _                                _ 
 |  ___(_) |__   ___  _ __   __ _  ___ ___(_)
@@ -13,6 +24,10 @@ print('''
                |_|                          
 
 ''')
+
+din("Welcome to Lauro's Fibonacci Sequence! \n"
+    "The Pc can show how many terms of the Fibonacci Sequence you want!")
+lin(40, "-=-")
 
 n = int(input('How many terms? '))
 stop = 3
@@ -33,4 +48,6 @@ while stop <= n:
     t1 = t2
     t2 = t
     stop += 1
+
 print()
+lin(40, "-=-")

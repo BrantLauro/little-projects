@@ -1,8 +1,14 @@
-from random import randint as rd
 from time import sleep as sl
+from random import randint as rd
 
-def lin():
-    print('='*30)
+def din (text):
+    for c in (text):
+        print(c, end='', flush=True)
+        sl(0.05)
+    print()
+
+def lin (qua,sym):
+    print(qua*sym)
 
 print('''
  __  __                    ____                   
@@ -13,8 +19,11 @@ print('''
              |___/                                
 ''')
 
+din("Welcome to the Lauro's Mega Sena guesser! \n"
+    "How many games do you want to play?")
+
 games = []
-times = int(input('How many games do you want to play? '))
+times = int(input('Quantity: '))
 
 for c in range(0, times):    
     games.append([])
@@ -28,6 +37,13 @@ for c in range(0, times):
     sl(0.1)
     print(games[c])
 
-lin()
-print(f"{'Good Luck':>19}")
-lin()
+lin(30, "=")
+
+print('''
+  ____                 _   _               _    _ 
+ / ___| ___   ___   __| | | |   _   _  ___| | _| |
+| |  _ / _ \ / _ \ / _` | | |  | | | |/ __| |/ / |
+| |_| | (_) | (_) | (_| | | |__| |_| | (__|   <|_|
+ \____|\___/ \___/ \__,_| |_____\__,_|\___|_|\_(_)
+                                                  
+''')

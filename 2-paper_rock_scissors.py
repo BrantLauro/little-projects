@@ -5,6 +5,7 @@ def din (text):
     for c in (text):
         print(c, end='', flush=True)
         sl(0.05)
+    print()
 
 def lin (qua,sym):
     print(qua*sym)
@@ -23,8 +24,9 @@ print('''
 |____/ \___|_|___/___/\___/|_|  |___/ 
 ''')
 
-din("Welcome to the Lauro's Rock Paper Scissors \n")
-din('Rock Paper or Scissor? \n')
+din("Welcome to the Lauro's Rock Paper Scissors! \n"
+    "Rock Paper or Scissor?")
+
 while True:
     p1_choice = 0
     while p1_choice not in [1, 2 , 3]:
@@ -34,23 +36,21 @@ while True:
         lin(30, '~')
         p2_choice = rd(1, 3)
     if p1_choice == 1 and p2_choice == 3 or p1_choice == 2 and p2_choice == 1 or p1_choice == 3 and p2_choice == 2:
-        print(p2_choice)
-        print('You Win!')
+        din('You Win!')
         continue_choice = ' '
         while continue_choice not in 'NY':
-            continue_choice = input('Do you want to play again? [Y/N]').upper().strip()[0]
+            continue_choice = input('Do you want to play again? [Y/N] ').upper().strip()[0]
             lin(30, '~')
         if continue_choice == 'N':
             break
     if p2_choice == 1 and p1_choice == 3 or p2_choice == 2 and p1_choice == 1 or p2_choice == 3 and p1_choice == 2:
-        print(p2_choice)
-        print('You Lose!')
+        din('You Lose!')
         continue_choice = ' '
         while continue_choice not in 'NY':
-            continue_choice = input('Do you want to play again? [Y/N]').upper().strip()[0]
+            continue_choice = input('Do you want to play again? [Y/N] ').upper().strip()[0]
             lin(30, '~')
         if continue_choice == 'N':
             break
     if p1_choice == p2_choice:
-        print('Tied!')
+        din('Tied!')
         lin(30, '~')
