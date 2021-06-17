@@ -19,13 +19,12 @@ print('''
  ____       _                        
 / ___|  ___(_)___ ___  ___  _ __ ___ 
 \___ \ / __| / __/ __|/ _ \| '__/ __|
- ___) | (__| \__ \__ \ (_) | |  \__ \
-|____/ \___|_|___/___/\___/|_|  |___/
-
+ ___) | (__| \__ \__ \ (_) | |  \__ \ 
+|____/ \___|_|___/___/\___/|_|  |___/ 
 ''')
 
-din("Welcome to the Lauro's Paper Rock and Scissor \n")
-din('Paper Rock or Scissor? \n')
+din("Welcome to the Lauro's Rock Paper Scissors \n")
+din('Rock Paper or Scissor? \n')
 while True:
     p1_choice = 0
     while p1_choice not in [1, 2 , 3]:
