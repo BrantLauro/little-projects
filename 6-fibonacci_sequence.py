@@ -29,24 +29,24 @@ din("Welcome to Lauro's Fibonacci Sequence! \n"
     "The Pc can show how many terms of the Fibonacci Sequence you want!")
 lin(40, "-=-")
 
-n = int(input('How many terms? '))
+number_terms = int(input('How many terms? '))
 stop = 3
-t1, t2 = 0, 1
+term1, term2 = 0, 1
 
-if n < 1:
+if number_terms < 1:
     print('Please enter a positive integer!')
 
-if n == 1:
-    print(t1)
+if number_terms == 1:
+    print(term1)
 
-if n > 1:
-    print(f'{t1} → {t2}', end='')
+if number_terms > 1:
+    print(f'{term1} → {term2}', end='')
 
-while stop <= n:
-    t = t1 + t2
-    print(f' → {t}', end='')
-    t1 = t2
-    t2 = t
+while stop <= number_terms:
+    term = term1 + term2
+    print(f' → {term}', end='')
+    term1 = term2
+    term2 = term
     stop += 1
 
 print()
