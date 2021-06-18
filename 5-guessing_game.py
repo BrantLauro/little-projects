@@ -25,26 +25,24 @@ din("Welcome to Lauro's Guessing Game! \n"
 
 lin(30, "-=-")
 
-n = int(input('Your Guess: '))
-r = rd(0, 100)
+number = int(input('Your Guess: '))
+pc_number = rd(0, 100)
 tries = 1
 
 din('PROCESSING...')
-lin(30, "-=-")
 
-while n != r:
-    if n > r:
-        n = int(input(f'OH NO! You missed, The number is less! Try again: '))
+while number != pc_number:
+    if number > pc_number:
+        number = int(input(f'OH NO! You missed, The number is less! Try again: '))
         tries += 1
         din('PROCESSING...')
-        lin(30, "-=-")
-    elif n < r:
-        n = int(input(f'OH NO! You missed, The number is better! Try again: '))
+    elif number < pc_number:
+        number = int(input(f'OH NO! You missed, The number is better! Try again: '))
         tries += 1
         din('PROCESSING...')
-        lin(30, "-=-")
 
-if n == r:
+if number == pc_number:
+    lin(30, "-=-")
     din('CONGRATULATIONS! You won!')
     din(f'With {tries} tries')
-    lin(30, "-=-")
+    
