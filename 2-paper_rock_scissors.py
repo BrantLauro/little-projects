@@ -50,12 +50,13 @@ while True:
     if p2_choice == 1 and p1_choice == 3 or p2_choice == 2 and p1_choice == 1 or p2_choice == 3 and p1_choice == 2:
         din('You Lose!')
         continue_choice = ' '
+        
         while continue_choice not in 'NY':
             continue_choice = input('Do you want to play again? [Y/N] ').upper().strip()[0]
             lin(30, '~')
         if continue_choice == 'N':
             break
-        
+
     if p1_choice == p2_choice:
         din('Tied!')
         lin(30, '~')
