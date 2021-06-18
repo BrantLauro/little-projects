@@ -104,6 +104,78 @@ So in this game you have to put 6 numbers that you think maybe the pc randomized
 
 I hope you get **fun** playing this games and **Good Luck**!
 
+## Project 5:
+
+```
+  ____                     _                ____                      
+ / ___|_   _  ___  ___ ___(_)_ __   __ _   / ___| __ _ _ __ ___   ___ 
+| |  _| | | |/ _ \/ __/ __| | '_ \ / _` | | |  _ / _` | '_ ` _ \ / _ \ 
+| |_| | |_| |  __/\__ \__ \ | | | | (_| | | |_| | (_| | | | | | |  __/
+ \____|\__,_|\___||___/___/_|_| |_|\__, |  \____|\__,_|_| |_| |_|\___|
+                                   |___/                              
+```
+A simple **Guessing Game** for fun! Pc randomize a number, you have to guess it...
+
+A guess is a swift conclusion drawn from data directly at hand, and held as probable or tentative, while the person making the guess admittedly lacks material for a greater degree of certainty. A guess is also an unstable answer, as it is "always putative, fallible, open to further revision and interpretation, and validated against the horizon of possible meanings by showing that one interpretation is more probable than another in light of what we already know". In many of its uses, "the meaning of guessing is assumed as implicitly understood", and the term is therefore often used without being meticulously defined. Guessing may combine elements of deduction, induction, abduction, and the purely random selection of one choice from a set of given options. Guessing may also involve the intuition of the guesser, who may have a "gut feeling" about which answer is correct without necessarily being able to articulate a reason for having this feeling.
+
+font: https://en.wikipedia.org/wiki/Guessing#Guessing_games
+
+So, I made this **pretty good** and funny number guessing game, where the pc randomize a number from 1 to 100 and you have to guess now only if the number is lower or better than you guess!
+
+
+## Project 6:
+
+```
+ _____ _ _                                _ 
+|  ___(_) |__   ___  _ __   __ _  ___ ___(_)
+| |_  | | '_ \ / _ \| '_ \ / _` |/ __/ __| |
+|  _| | | |_) | (_) | | | | (_| | (_| (__| |
+|_|   |_|_.__/ \___/|_| |_|\__,_|\___\___|_|
+                                            
+ ____                                       
+/ ___|  ___  __ _ _   _  ___ _ __   ___ ___ 
+\___ \ / _ \/ _` | | | |/ _ \ '_ \ / __/ _ \ 
+ ___) |  __/ (_| | |_| |  __/ | | | (_|  __/
+|____/ \___|\__, |\__,_|\___|_| |_|\___\___|
+               |_|                          
+```
+
+A simple **Fibonacci Sequence** I don't know for what!
+
+In mathematics, the Fibonacci sequence is a sequence of whole numbers, usually starting with 0 and 1, in which each subsequent term corresponds to the sum of the previous two. The sequence was named after the Italian mathematician Leonardo de Pisa, better known as Fibonacci, who described, in the year 1202, the growth of a population of rabbits from this one. This sequence was, however, already known in antiquity.
+
+The Fibonacci numbers are, therefore, the numbers that make up the following sequence:
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, ...
+
+The Fibonacci sequence has applications in financial market analysis, computer science and game theory. It also appears in biological configurations, such as the arrangement of tree branches or leaves on a stalk, in artichoke cone arrangement, pineapple cone arrangement, or fern unwinding.
+
+font: https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci
+
+So I made this **beautful** Fibonacci Sequence for se some pretty numbers
+
+## Project 7:
+
+```
+  ___      _     _                       _   _____                     
+ / _ \  __| | __| |___    __ _ _ __   __| | | ____|_   _____ _ __  ___ 
+| | | |/ _` |/ _` / __|  / _` | '_ \ / _` | |  _| \ \ / / _ \ '_ \/ __|
+| |_| | (_| | (_| \__ \ | (_| | | | | (_| | | |___ \ V /  __/ | | \__ \ 
+ \___/ \__,_|\__,_|___/  \__,_|_| |_|\__,_| |_____| \_/ \___|_| |_|___/
+```
+
+A simple **Odds and Evens** game for fun!
+
+Odds and evens is a simple game of chance and hand game, involving two people simultaneously revealing a number of fingers and winning or losing depending on whether they are odd or even, or alternatively involving one person picking up coins or other small objects and hiding them in their closed hand, while another player guesses whether they have an odd or even number. The game may be used to make a decision or played for fun.
+
+The finger game is also known as swords, choosies, pick, odds-on poke, or bucking up. This zero-sum game, a variation of the ancient morra and par-impar, is played in Europe and the US, especially among children.
+
+In Odds and Evens, however, individuals prepare by deciding who will be assigned odds and who will be evens. Then, one or both people say "One, two, three, shoot!" or "once, twice, three, shoot!" As the word "shoot" is said, the two people quickly and simultaneously thrust a fist into the center, extending either an index finger, or both the middle and index finger, indicating one number from 1 to 10. The sum total of fingers displayed is either odd or even. If the result is odd, then the person who called odds is the victor, and can decide the issue as they see fit. Often, the participants continue to shoot for a best two out of three.
+
+font: https://en.wikipedia.org/wiki/Odds_and_evens_(hand_game)
+
+So I created this **Good Odds and Evens** Game for you fun!
+
 ## ⚈ Download:
 
 [Click Here](https://github.com/BrantLauro/little-projects/releases/) to download.
