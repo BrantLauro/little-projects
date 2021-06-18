@@ -20,4 +20,4 @@ din('''
 din("Welcome to Lauro's Hello World! \n"
     "Thanks for playing this program. I Lov U!")
 
-lin(50, '~')
+lin(30, '-=-')
