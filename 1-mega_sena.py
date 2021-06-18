@@ -25,17 +25,17 @@ din("Welcome to the Lauro's Mega Sena guesser! \n"
 games = []
 times = int(input('Quantity: '))
 
-for c in range(0, times):    
+for counter in range(0, times):    
     games.append([])
 
-    while len(games[c]) < 6:
+    while len(games[counter]) < 6:
         number = rd(1, 60)
-        if number not in games[c]:
-            games[c].append(number)
+        if number not in games[counter]:
+            games[counter].append(number)
 
-    games[c].sort()
+    games[counter].sort()
     sl(0.1)
-    print(games[c])
+    print(games[counter])
 
 lin(30, "=")
 
