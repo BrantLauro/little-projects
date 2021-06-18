@@ -25,6 +25,8 @@ din("Welcome to the Lauro's Mega Sena guesser! \n"
 games = []
 times = int(input('Quantity: '))
 
+lin(30, '-=-')
+
 for counter in range(0, times):    
     games.append([])
 
@@ -37,7 +39,7 @@ for counter in range(0, times):
     sl(0.1)
     print(games[counter])
 
-lin(30, "=")
+lin(30, '-=-')
 
 print('''
   ____                 _   _               _    _ 
