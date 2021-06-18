@@ -37,8 +37,6 @@ for c in range(0, 6):
     if number not in game:
         game.append(number)
 
-
-
 for i in range(0, 6):
     while True:
         guess = int(input(f'Guess a number ({i+1}/6): [1/60] '))
