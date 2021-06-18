@@ -28,6 +28,8 @@ print('''
 din("Welcome to Lauro's Mega Sena - The Game! \n"
     "The Pc made a Mega Sena game, and you have to guess it!")
 
+lin(30, '-=-')
+
 game = []
 correct_numbers = 0
 guess = 0
@@ -41,11 +43,13 @@ for i in range(0, 6):
     while True:
         guess = int(input(f'Guess a number ({i+1}/6): [1/60] '))
         if guess > 60 or guess <= 0:
-            din('Try Again! \n')
+            din('Try Again!')
         else:
             break
     if guess in game:
         correct_numbers += 1
 
-din(f"The genereted game was {game}! \n")
-din(f"You hit {correct_numbers}/6 numbers of this game! \n")
+lin(30, "-=-")
+
+din(f"The genereted game was {game}! \n"
+    f"You hit {correct_numbers}/6 numbers of this game!")
