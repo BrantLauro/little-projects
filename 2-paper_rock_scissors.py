@@ -27,6 +27,8 @@ print('''
 din("Welcome to the Lauro's Rock Paper Scissors! \n"
     "Rock Paper or Scissor?")
 
+lin(30, '-=-')
+
 while True:
     p1_choice = 0
     while p1_choice not in [1, 2 , 3]:
@@ -34,7 +36,7 @@ while True:
                               '[2] Paper \n'
                               '[3] Scissor '))
 
-        lin(30, '~')
+        lin(30, '-=-')
         p2_choice = rd(1, 3)
 
     if p1_choice == 1 and p2_choice == 3 or p1_choice == 2 and p2_choice == 1 or p1_choice == 3 and p2_choice == 2:
@@ -43,7 +45,6 @@ while True:
 
         while continue_choice not in 'NY':
             continue_choice = input('Do you want to play again? [Y/N] ').upper().strip()[0]
-            lin(30, '~')
         if continue_choice == 'N':
             break
 
@@ -53,10 +54,8 @@ while True:
         
         while continue_choice not in 'NY':
             continue_choice = input('Do you want to play again? [Y/N] ').upper().strip()[0]
-            lin(30, '~')
         if continue_choice == 'N':
             break
 
     if p1_choice == p2_choice:
         din('Tied!')
-        lin(30, '~')
