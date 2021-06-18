@@ -1,14 +1,5 @@
-from time import sleep as sl
 from random import randint as rd
-
-def din (text):
-    for c in (text):
-        print(c, end='', flush=True)
-        sl(0.05)
-    print()
-
-def lin (qua,sym):
-    print(qua*sym)
+from functions import din, lin 
 
 print('''
  ____            _      ____                       
